@@ -64,9 +64,48 @@
 
 
             function sayHi(name) {
-                return "Привет, " + name;   
+                return "Привет," + name;   
              }
+
+             console.log(sayHi("Залина"));
+
+
+
+        function checkclient(hasTime, hasBooking) {
+        if (hasBooking && hasTime) {
+            return "Приступаем  работе!";
+        } else {
+            return "К сожалению, сегодня принять не можем."
+        }
+    }
+
+        console.log(checkclient(true, true));
+
+
+        function saleClient(isVIP, amount) {
+            if (isVIP || amount>10000) {
+                return "Скидка применена!";
+            } else {
+                return "Скидки нет."
+
+            }
+
+        }
+            console.log(saleClient(true, 500));
+        
+
+            function checkEntry(age, hasTicket) {
+            if (age>=18 || hasTicket) {
+                return "Вход разрешен!"
+            } else {
+                return "Возвращайтесь через год."
+            }
+            }
+            console.log(checkEntry(17, false));
+
+        
             
+
         </script>
 
     </body>
