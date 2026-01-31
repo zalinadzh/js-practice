@@ -161,7 +161,23 @@
                         return "Take a rest and come back later";
                     }
                 }
-            
+
+
+                function checkMasterStatus(old) {
+                    if (old >= 2) {
+                        return "You are a professional";
+                    } else {
+                        return "You are still learning, keep going!";
+                    }
+                }
+                function canlByTicket(balance, price) {
+                    let difference = balance - price;
+                    if (difference>=0) {
+                        return "Success! Pack your bags!";
+                    } else {
+                        "Work harder, you need more money."
+                    }
+                }
         </script>
 
     </body>
