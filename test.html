@@ -144,6 +144,24 @@
                     return "Нужно подрасти!";
                 }
             }
+
+                function calculateDiscount(price) {
+                if (price > 2000) {
+                    let result = price*0.9;
+                        return result
+                    } else {
+                        return price
+                    }
+                }
+
+                function checkReadiness(hasLaptop, hasTime) {
+                    if (hasLaptop && hasTime) {
+                        return "You are ready to code!";
+                    } else {
+                        return "Take a rest and come back later";
+                    }
+                }
+            
         </script>
 
     </body>
