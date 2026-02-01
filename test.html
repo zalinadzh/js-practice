@@ -226,7 +226,31 @@
                }
                }
 
-               
+
+
+               const traficLight = () => {
+                for (let i = 1; i <= 3; i++) {
+                    if (i === 1) {
+                    console.log(i + " секунда: Кпасный! Стойте.");
+                } else  if (i === 2) {
+                   console.log(i + " секунда: Желтый! Приготовьтесью");
+                } else { 
+                    console.log(i + " секунда: Зеленый! Можно ехать.");
+                }
+               }
+            };
+            traficLight();
+
+            const evenDetector = () => {
+                for (let i = 1; i <= 10; i++) {
+                    if (i % 2 === 0) {
+                        console.log(i + " - Even number");
+                    } else {
+                        console.log(i);
+                    }
+                }
+            };
+            evenDetector();
         </script>
 
     </body>
