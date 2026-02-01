@@ -218,7 +218,7 @@
 
 
                const checkDiscount = (orders) => {
-                for (let i = 1; i =< orders; i++) {
+                for (let i = 1; i <= orders; i++) {
                 console.log("заказ № " + ш + " обработан");
                 if (i === 5) {
                     console.log("Поздравляем! пятый заказ - скидка 50 %!");
@@ -253,7 +253,7 @@
             evenDetector();
 
 
-            const countDownn () => {
+            const countDownn = () => {
                 for (let i = 5; i >= 1; i--) {
                     console.log(i);
                     if (i === 1) {
@@ -306,6 +306,29 @@
                 }
             };
             showProgress();
+
+
+
+
+
+            const checkNumber = () =>  {
+                for (let i = 10; i <= 50; i+= 10) {
+            console.log(i);
+                }
+            }
+
+
+
+            // 1. Создать функцию с названием "Будильник";
+            // 2. ЕСЛИ (сейчас время 07:00 И сегодня будний день) => включить звонок;
+            // 3. ИНАЧЕ => пользователь спит дальще;
+
+
+            const comebackTime = () => {
+                for (let i = 10; i >= 1; i-=1) {
+                    console.log(i);
+                }
+            }
         </script>
 
     </body>
