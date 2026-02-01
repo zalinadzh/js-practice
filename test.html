@@ -285,6 +285,27 @@
                 }
             };
             doubleNumbers();
+
+
+            const calculatePrices = () => {
+                let basePrice = 100;
+                for (let i = 1; i <= 3; i++) {
+                    basePrice = basePrice + 50;
+                    console.log("New price step " + i + ": " + basePrice);
+
+                }
+            };
+            calculatePrices();
+
+
+            const showProgress = () => {
+                let progress = "";
+                for (let i = 1; i <= 5; i++) {
+                    progress = progress + "+";
+                    console.log("Loading: " +  progress)
+                }
+            };
+            showProgress();
         </script>
 
     </body>
