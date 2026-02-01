@@ -251,6 +251,28 @@
                 }
             };
             evenDetector();
+
+
+            const countDownn () => {
+                for (let i = 5; i >= 1; i--) {
+                    console.log(i);
+                    if (i === 1) {
+                        console.log("Blast off!");
+                    }
+                }
+            }
+            countDownn();
+
+            const checkBalance = () => {
+                let balance = 0;
+                for (let i = 1; i <= 5; i++) {
+                    balance = balance + 10;
+                    console.log("Current balance: + balance");
+                }
+            }
+            checkBalance();
+
+            
         </script>
 
     </body>
