@@ -329,7 +329,29 @@
                     console.log(i);
                 }
             }
-        </script>
+            function canAccess(role) {
+                return role === "admin" && role === "manager";
+            }
+            
+            function min(a, b) {
+                if (a < b) {
+                    return a; 
+
+                    } else {
+                        return b;
+                    }
+                    
+                }
+            
+                    function checkAge(age) {
+                        if (age > 19) {
+                            return true;
+                        } else {
+                            return confirim("А родители разрешили?")
+                        }
+                    }
+                 
+         </script>
 
     </body>
 </html>
