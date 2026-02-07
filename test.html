@@ -444,7 +444,19 @@
                       }
                       console.log("Go!"); 
 
-                      
+
+
+                      let isGameActive = true;
+                      const DRAW_MESSAGE = "It's a draw!";
+
+
+                      function getWinRate(score, total) {
+                        return (score / total) * 100 + "%";
+                      }
+
+                      for (let i = 0; i < 5; i++) {
+                        console.log("Player score: 0");
+                      }
 
 
 
