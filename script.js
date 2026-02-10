@@ -30,4 +30,22 @@
                       let subject = "Java Script";
                       let fullSentence = firstName + action + subject;
                       console.log(fullSentence);
+
+
+                      let finalOrderPrice = 1200;
+                      let deliveryThreshold = 1500;
+                      let isDeliveryFree = finalOrderPrice >= deliveryThreshold;
+                      console.log("Бесплатная доставка активна? " + isDeliveryFree);
+
+
+                      let sushilnStock = 8;
+                      let sushiOrdered = 5;
+                      let isStockEnough = sushilnStock >= sushiOrdered;
+                      console.log("Сможем приготовить заказ? " + isStockEnough);
+
+
+
+
+
+
                     
