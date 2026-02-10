@@ -13,5 +13,21 @@
 
                       let discount = 100;
                       totalPrice = totalPrice - discount;
-                      console.log("Цена со скидкой: " + totalPrice + " рублей")
+                      console.log("Цена со скидкой: " + totalPrice + " руб");
 
+
+
+
+
+                      let bill = 2000;
+                      let tipPercent = 10;
+                      let tipAmount = (bill * tipPercent) / 100;
+                      console.log("Чаевые составят: " + tipAmount + " рублей");
+
+
+                      let firstName = "Залина ";
+                      let action = " изучает ";
+                      let subject = "Java Script";
+                      let fullSentence = firstName + action + subject;
+                      console.log(fullSentence);
+                    
