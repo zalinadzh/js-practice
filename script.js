@@ -44,6 +44,20 @@
                       console.log("Сможем приготовить заказ? " + isStockEnough);
 
 
+                      let isRegularCustomer = true;
+                      let orderAmount = 2500;
+                      let applySuperDiscount = isRegularCustomer && orderAmount > 2000;
+                      console.log(applySuperDiscount);
+
+
+
+                      let hasCash = false;
+                      let hasCard = true;
+                      let canPay = hasCash || hasCard;
+                      console.log("Клиент может оплатить заказ? " + canPay);
+                      
+
+
 
 
 
