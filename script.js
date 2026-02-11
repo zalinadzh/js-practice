@@ -55,6 +55,24 @@
                       let hasCard = true;
                       let canPay = hasCash || hasCard;
                       console.log("Клиент может оплатить заказ? " + canPay);
+
+
+                      let admin;
+                      let name = "Dgoun";
+                      admin = name;
+                      console.log(admin);
+
+
+                      let ourPlanetName = "Zemlya";
+                      let currentUserName = "Zalina";
+
+
+                      let apples = 15;
+                      let oranges = 25;
+                      console.log(apples + oranges);
+
+
+
                       
 
 
