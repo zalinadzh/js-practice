@@ -120,7 +120,27 @@
                        let average = (num1 + num2 + num3) / 3;
                        console.log(average);
 
-                       
+
+                       let celsius = 25;
+                       let fahrenheit = (celsius * 9/5) + 32;
+                       console.log(fahrenheit);
+
+                       const BIRTH_DAY = 1995;
+                       let currentYear = 2026;
+                       let age = currentYear - BIRTH_DAY;
+                       console.log(age);
+
+
+                       let countD = 0;
+                       countD++;
+                       countD++;
+                       console.log(countD);
+
+                       let number = 15;
+                       let isEven = (number % 2);
+                       console.log(isEven);
+                    
+
 
 
 
