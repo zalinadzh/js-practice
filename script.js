@@ -73,6 +73,23 @@
 
 
 
+                      let balance = 1000;
+                      let spend = 450;
+                      let result = balance - spend;
+                      console.log(result);
+
+                      let price = 100;
+                       let count = 4;
+                       console.log(price * count);
+
+                       let total = 50;
+                       let people = 3;
+                       console.log(total / people);
+
+                       
+
+
+
                       
 
 
