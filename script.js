@@ -86,7 +86,20 @@
                        let people = 3;
                        console.log(total / people);
 
+
+                       let x = 2;
+                       console.log(x ** 3);
+
+
+                       let counter = 5;
+                       counter++;
+                       console.log(counter);
+
+                       let score = 10;
+                       score += 5;
+                       console.log(score);
                        
+
 
 
 
