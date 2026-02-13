@@ -165,6 +165,40 @@
 
 
                        let isLearningJS = true;
+
+
+
+
+
+
+
+
+
+                       let nameMy = 'Zalina';
+
+
+                       let numberMyPractice = 30;
+
+                       let isHappy = true;
+
+                       let nothing = null;
+
+                       let notDefined = "";
+                       
+
+                       let city = "Moscow";
+                       console.log(`I live in city ${city}`);
+
+                       console.log(`Sum: ${5+5}`);
+
+
+
+                       let nameA = "Ani";
+                       let age1 = 20;
+                       console.log(`${nameA} ${age1}`);
+
+                       
+
                     
 
                     
