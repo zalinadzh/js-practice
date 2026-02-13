@@ -139,6 +139,34 @@
                        let number = 15;
                        let isEven = (number % 2);
                        console.log(isEven);
+
+
+
+                       let myAge = 20;
+                       let myName = "Zalina";
+
+
+                       let name1 = "Maria";
+                       let name2 = "Olga";
+                       let bothName = name1 + name2;
+                       console.log(bothName);
+
+
+                       let item = "apple";
+                       console.log(`Я купила одно ${item}`);
+
+
+
+                       let text = "программист";
+                       text = "ПРОГРАММИСТ";
+                       console.log(text);
+
+
+
+
+                       let isLearningJS = true;
+                    
+
                     
 
 
