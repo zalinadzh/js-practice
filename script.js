@@ -267,16 +267,34 @@
                        } else {
                         console.log("Документы не приняты!");
                        } 
+
+
+
+
+
+
+
+                       
+
+                       let isFamilyMember = true;
+                       let hasPassCard = false;
+                       let carNumber = "A123BC";
+                       let isEmergency1 = false;
+
+                       if (isFamilyMember || isEmergency1) {
+                          if (carNumber) {
+                            console.log("Номер считан. Проверяем пропуск...");
+                            if (hasPassCard) {
+                              console.log("Доступ разрешен!")  
+                            } else {
+                                console.log("Нужен бумажный пропуск.")
+                            }
+
+                       } else {
+                        console.log("Ошибка: номер машины не читается!");
+                       } 
+                    } else {
+                        console.log("Ворота заблокированы!");
+                   }
                     
 
-
-
-
-                      
-
-
-
-
-
-
-                    
