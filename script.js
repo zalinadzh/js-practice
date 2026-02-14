@@ -232,6 +232,11 @@
                         console.log("Нужно заварить кофе или доделать задачи!");
                        }
                         
+
+
+
+
+
                         
                        
 
@@ -239,6 +244,30 @@
 
                     
 
+
+
+                       let hasDiploma = true;
+                       let entranceExamScore = 80;
+                       let paymentStatus = "";
+                       let isLate = false;
+
+
+                       if (hasDiploma && !isLate) {
+                          if (entranceExamScore>=50) {
+                            console.log("Экзамен сдан! Проверяем оплату...")
+                              if (paymentStatus) {
+                                console.log("Зачисление успешно!")
+                              } else {
+                                console.log("Нужно оплатить!")
+                              }
+                    
+                        } else {
+                            console.log("Баллов недостаточно!");
+                        }
+                       } else {
+                        console.log("Документы не приняты!");
+                       } 
+                    
 
 
 
