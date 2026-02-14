@@ -197,6 +197,42 @@
                        let age1 = 20;
                        console.log(`${nameA} ${age1}`);
 
+
+
+
+
+                       let hasKey = true;
+                       let knowsPassword = false;
+                       let energyLevel = 70;
+                           if(hasKey && knowsPassword) {
+                        
+                           if(energyLevel>50) {
+                            console.log("Добро пожаловать в систему, работаем!");
+                           } else {
+                            console.log("Вход разрешен, но сначала поздоровайся!");
+                           } 
+                        }
+                            else  {
+                           console.log("Доступ запрещен!");  
+                           }
+
+
+                        
+
+
+
+
+                       let isTired = true;
+                       let tasksDone = 5;
+                       let isCoffeeFinished = true;
+                       
+                       if (tasksDone>3 && isCoffeeFinished) {
+                        console.log("Идем учить дальше!");
+                       } else {
+                        console.log("Нужно заварить кофе или доделать задачи!");
+                       }
+                        
+                        
                        
 
                     
