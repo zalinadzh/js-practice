@@ -1,172 +1,170 @@
-                       let nApples = 22;
-                       let cPerApple = 52;
-                       let tCalories = nApples + cPerApple;
-                      console.log(tCalories);
+let nApples = 22;
+let cPerApple = 52;
+let tCalories = nApples + cPerApple;
+console.log(tCalories);
 
 
-                      let nameRoll = "Philadelphy"
-                      let porciaOne = 550;
-                      let clientPorcia = 2;
-                      let totalPrice = porciaOne * clientPorcia;
-                      console.log("Заказ: " + nameRoll + ", итоговая сумма: " + totalPrice + " рублей");
+let nameRoll = "Philadelphy"
+let porciaOne = 550;
+let clientPorcia = 2;
+let totalPrice = porciaOne * clientPorcia;
+console.log("Заказ: " + nameRoll + ", итоговая сумма: " + totalPrice + " рублей");
 
 
-                      let discount = 100;
-                      totalPrice = totalPrice - discount;
-                      console.log("Цена со скидкой: " + totalPrice + " руб");
+let discount = 100;
+totalPrice = totalPrice - discount;
+console.log("Цена со скидкой: " + totalPrice + " руб");
 
 
 
 
 
-                      let bill = 2000;
-                      let tipPercent = 10;
-                      let tipAmount = (bill * tipPercent) / 100;
-                      console.log("Чаевые составят: " + tipAmount + " рублей");
+let bill = 2000;
+let tipPercent = 10;
+let tipAmount = (bill * tipPercent) / 100;
+console.log("Чаевые составят: " + tipAmount + " рублей");
 
 
-                      let firstName = "Залина ";
-                      let action = " изучает ";
-                      let subject = "Java Script";
-                      let fullSentence = firstName + action + subject;
-                      console.log(fullSentence);
+let firstName = "Залина ";
+let action = " изучает ";
+let subject = "Java Script";
+let fullSentence = firstName + action + subject;
+console.log(fullSentence);
 
 
-                      let finalOrderPrice = 1200;
-                      let deliveryThreshold = 1500;
-                      let isDeliveryFree = finalOrderPrice >= deliveryThreshold;
-                      console.log("Бесплатная доставка активна? " + isDeliveryFree);
+let finalOrderPrice = 1200;
+let deliveryThreshold = 1500;
+let isDeliveryFree = finalOrderPrice >= deliveryThreshold;
+console.log("Бесплатная доставка активна? " + isDeliveryFree);
 
 
-                      let sushilnStock = 8;
-                      let sushiOrdered = 5;
-                      let isStockEnough = sushilnStock >= sushiOrdered;
-                      console.log("Сможем приготовить заказ? " + isStockEnough);
+let sushilnStock = 8;
+let sushiOrdered = 5;
+let isStockEnough = sushilnStock >= sushiOrdered;
+console.log("Сможем приготовить заказ? " + isStockEnough);
 
 
-                      let isRegularCustomer = true;
-                      let orderAmount = 2500;
-                      let applySuperDiscount = isRegularCustomer && orderAmount > 2000;
-                      console.log(applySuperDiscount);
+let isRegularCustomer = true;
+let orderAmount = 2500;
+let applySuperDiscount = isRegularCustomer && orderAmount > 2000;
+console.log(applySuperDiscount);
 
 
 
-                      let hasCash = false;
-                      let hasCard = true;
-                      let canPay = hasCash || hasCard;
-                      console.log("Клиент может оплатить заказ? " + canPay);
+let hasCash = false;
+let hasCard = true;
+let canPay = hasCash || hasCard;
+console.log("Клиент может оплатить заказ? " + canPay);
 
 
-                      let admin;
-                      let name = "Dgoun";
-                      admin = name;
-                      console.log(admin);
+let admin;
+let name = "Dgoun";
+admin = name;
+console.log(admin);
 
 
-                      let ourPlanetName = "Zemlya";
-                      let currentUserName = "Zalina";
+let ourPlanetName = "Zemlya";
+let currentUserName = "Zalina";
 
 
-                      let apples = 15;
-                      let oranges = 25;
-                      console.log(apples + oranges);
+let apples = 15;
+let oranges = 25;
+console.log(apples + oranges);
 
 
 
-                      let balance = 1000;
-                      let spend = 450;
-                      let result = balance - spend;
-                      console.log(result);
+let balance = 1000;
+let spend = 450;
+let result = balance - spend;
+console.log(result);
 
-                      let price = 100;
-                       let count = 4;
-                       console.log(price * count);
+let price = 100;
+let count = 4;
+console.log(price * count);
 
-                       let total = 50;
-                       let people = 3;
-                       console.log(total / people);
+let total = 50;
+let people = 3;
+console.log(total / people);
 
 
-                       let x = 2;
-                       console.log(x ** 3);
+let x = 2;
+console.log(x ** 3);
 
 
-                       let counter = 5;
-                       counter++;
-                       console.log(counter);
+let counter = 5;
+counter++;
+console.log(counter);
 
-                       let score = 10;
-                       score += 5;
-                       console.log(score);
+let score = 10;
+score += 5;
+console.log(score);
 
 
-                       let d = 10;
-                       let f =20;
-                       d = d + f;
-                       f = d - f;
-                       d = d - f;
-                       console.log(d, f);
-                         
+let d = 10;
+let f = 20;
+d = d + f;
+f = d - f;
+d = d - f;
+console.log(d, f);
 
-                    
-                       let side = 8;
-                       let perimeter = side * 4;
-                       console.log(perimeter);
 
 
-                       let num1 = 10;
-                       let num2 = 20;
-                       let num3 = 30;
-                       let average = (num1 + num2 + num3) / 3;
-                       console.log(average);
+let side = 8;
+let perimeter = side * 4;
+console.log(perimeter);
 
 
-                       let celsius = 25;
-                       let fahrenheit = (celsius * 9/5) + 32;
-                       console.log(fahrenheit);
+let num1 = 10;
+let num2 = 20;
+let num3 = 30;
+let average = (num1 + num2 + num3) / 3;
+console.log(average);
 
-                       const BIRTH_DAY = 1995;
-                       let currentYear = 2026;
-                       let age = currentYear - BIRTH_DAY;
-                       console.log(age);
 
+let celsius = 25;
+let fahrenheit = (celsius * 9 / 5) + 32;
+console.log(fahrenheit);
 
-                       let countD = 0;
-                       countD++;
-                       countD++;
-                       console.log(countD);
+const BIRTH_DAY = 1995;
+let currentYear = 2026;
+let age = currentYear - BIRTH_DAY;
+console.log(age);
 
-                       let number = 15;
-                       let isEven = (number % 2);
-                       console.log(isEven);
 
+let countD = 0;
+countD++;
+countD++;
+console.log(countD);
 
+let number = 15;
+let isEven = (number % 2);
+console.log(isEven);
 
-                       let myAge = 20;
-                       let myName = "Zalina";
 
 
-                       let name1 = "Maria";
-                       let name2 = "Olga";
-                       let bothName = name1 + name2;
-                       console.log(bothName);
+let myAge = 20;
+let myName = "Zalina";
 
 
-                       let item = "apple";
-                       console.log(`Я купила одно ${item}`);
+let name1 = "Maria";
+let name2 = "Olga";
+let bothName = name1 + name2;
+console.log(bothName);
 
 
+let item = "apple";
+console.log(`Я купила одно ${item}`);
 
-                       let text = "программист";
-                       text = "ПРОГРАММИСТ";
-                       console.log(text);
 
 
+let text = "программист";
+text = "ПРОГРАММИСТ";
+console.log(text);
 
 
-                       let isLearningJS = true;
 
 
+let isLearningJS = true;
 
 
 
@@ -174,99 +172,71 @@
 
 
 
-                       let nameMy = 'Zalina';
 
 
-                       let numberMyPractice = 30;
+let nameMy = 'Zalina';
 
-                       let isHappy = true;
 
-                       let nothing = null;
+let numberMyPractice = 30;
 
-                       let notDefined = "";
-                       
+let isHappy = true;
 
-                       let city = "Moscow";
-                       console.log(`I live in city ${city}`);
+let nothing = null;
 
-                       console.log(`Sum: ${5+5}`);
+let notDefined = "";
 
 
+let city = "Moscow";
+console.log(`I live in city ${city}`);
 
-                       let nameA = "Ani";
-                       let age1 = 20;
-                       console.log(`${nameA} ${age1}`);
+console.log(`Sum: ${5 + 5}`);
 
 
 
+let nameA = "Ani";
+let age1 = 20;
+console.log(`${nameA} ${age1}`);
 
 
-                       let hasKey = true;
-                       let knowsPassword = false;
-                       let energyLevel = 70;
-                           if(hasKey && knowsPassword) {
-                        
-                           if(energyLevel>50) {
-                            console.log("Добро пожаловать в систему, работаем!");
-                           } else {
-                            console.log("Вход разрешен, но сначала поздоровайся!");
-                           } 
-                        }
-                            else  {
-                           console.log("Доступ запрещен!");  
-                           }
 
 
-                        
 
+let hasKey = true;
+let knowsPassword = false;
+let energyLevel = 70;
+if (hasKey && knowsPassword) {
 
+    if (energyLevel > 50) {
+        console.log("Добро пожаловать в систему, работаем!");
+    } else {
+        console.log("Вход разрешен, но сначала поздоровайся!");
+    }
+}
+else {
+    console.log("Доступ запрещен!");
+}
 
 
-                       let isTired = true;
-                       let tasksDone = 5;
-                       let isCoffeeFinished = true;
-                       
-                       if (tasksDone>3 && isCoffeeFinished) {
-                        console.log("Идем учить дальше!");
-                       } else {
-                        console.log("Нужно заварить кофе или доделать задачи!");
-                       }
-                        
 
 
 
 
 
-                        
-                       
+let isTired = true;
+let tasksDone = 5;
+let isCoffeeFinished = true;
 
-                    
+if (tasksDone > 3 && isCoffeeFinished) {
+    console.log("Идем учить дальше!");
+} else {
+    console.log("Нужно заварить кофе или доделать задачи!");
+}
 
-                    
 
 
 
-                       let hasDiploma = true;
-                       let entranceExamScore = 80;
-                       let paymentStatus = "";
-                       let isLate = false;
 
 
-                       if (hasDiploma && !isLate) {
-                          if (entranceExamScore>=50) {
-                            console.log("Экзамен сдан! Проверяем оплату...")
-                              if (paymentStatus) {
-                                console.log("Зачисление успешно!")
-                              } else {
-                                console.log("Нужно оплатить!")
-                              }
-                    
-                        } else {
-                            console.log("Баллов недостаточно!");
-                        }
-                       } else {
-                        console.log("Документы не приняты!");
-                       } 
 
 
 
@@ -274,62 +244,87 @@
 
 
 
-                       
 
-                       let isFamilyMember = true;
-                       let hasPassCard = false;
-                       let carNumber = "A123BC";
-                       let isEmergency1 = false;
 
-                       if (isFamilyMember || isEmergency1) {
-                          if (carNumber) {
-                            console.log("Номер считан. Проверяем пропуск...");
-                            if (hasPassCard) {
-                              console.log("Доступ разрешен!")  
-                            } else {
-                                console.log("Нужен бумажный пропуск.")
-                            }
+let hasDiploma = true;
+let entranceExamScore = 80;
+let paymentStatus = "";
+let isLate = false;
 
-                       } else {
-                        console.log("Ошибка: номер машины не читается!");
-                       } 
-                    } else {
-                        console.log("Ворота заблокированы!");
-                   }
-                    
 
+if (hasDiploma && !isLate) {
+    if (entranceExamScore >= 50) {
+        console.log("Экзамен сдан! Проверяем оплату...")
+        if (paymentStatus) {
+            console.log("Зачисление успешно!")
+        } else {
+            console.log("Нужно оплатить!")
+        }
 
+    } else {
+        console.log("Баллов недостаточно!");
+    }
+} else {
+    console.log("Документы не приняты!");
+}
 
 
 
 
-                   let isWardOpen = true;
-                   let isFingerprintOK = true;
-                   let isPinCorrect = false;
-                   let attemptsLeft = 3;
 
-                   if (isWardOpen) {
-                    console.log("Шкаф открыт! Проверяем отпечаток...");
-                    if (isFingerprintOK) {
-                        console.log("Отпечаток принят, введите код!");
-                        if(isPinCorrect) {
-                            console.log("Сейф открыт!");
-                        } else {
 
-                        }
-                            if (attemptsLeft>0) {
-                                console.log("Неверный код! Осталось попыток: " + attemptsLeft);
-                            } else {
-                                console.log("Сейф заблокирован!")
-                            }
-                        } else {
-                            console.log("Пароль неверный!")
 
-                        } else {
-                            console.log("Отпечаток не принят!")
-                        }
-                    } else {
-                        console.log("Шкаф закрыт! Доступа нет!")
-                    }
-                   
-                    
+
+
+let isFamilyMember = true;
+let hasPassCard = false;
+let carNumber = "A123BC";
+let isEmergency1 = false;
+
+if (isFamilyMember || isEmergency1) {
+    if (carNumber) {
+        console.log("Номер считан. Проверяем пропуск...");
+        if (hasPassCard) {
+            console.log("Доступ разрешен!")
+        } else {
+            console.log("Нужен бумажный пропуск.")
+        }
+
+    } else {
+        console.log("Ошибка: номер машины не читается!");
+    }
+} else {
+    console.log("Ворота заблокированы!");
+}
+
+
+
+
+
+
+
+let isWardOpen = true;
+let isFingerprintOK = true;
+let isPinCorrect = false;
+let attemptsLeft = 3;
+
+if (isWardOpen) {
+    console.log("Шкаф открыт! Проверяем отпечаток...");
+    if (isFingerprintOK) {
+        console.log("Отпечаток принят, введите код!");
+        if (isPinCorrect) {
+            console.log("Сейф открыт!");
+        } else {
+            if (attemptsLeft > 0) {
+                console.log("Неверный код! Осталось попыток: " + attemptsLeft);
+            } else {
+                console.log("Сейф заблокирован!")
+            }
+        }
+    } else {
+        console.log("Отпечаток не принят!");
+    }
+} else {
+    console.log("Шкаф закрыт! Доступа нет!")
+}
+
