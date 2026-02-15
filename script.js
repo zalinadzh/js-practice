@@ -298,3 +298,38 @@
                    }
                     
 
+
+
+
+
+
+                   let isWardOpen = true;
+                   let isFingerprintOK = true;
+                   let isPinCorrect = false;
+                   let attemptsLeft = 3;
+
+                   if (isWardOpen) {
+                    console.log("Шкаф открыт! Проверяем отпечаток...");
+                    if (isFingerprintOK) {
+                        console.log("Отпечаток принят, введите код!");
+                        if(isPinCorrect) {
+                            console.log("Сейф открыт!");
+                        } else {
+
+                        }
+                            if (attemptsLeft>0) {
+                                console.log("Неверный код! Осталось попыток: " + attemptsLeft);
+                            } else {
+                                console.log("Сейф заблокирован!")
+                            }
+                        } else {
+                            console.log("Пароль неверный!")
+
+                        } else {
+                            console.log("Отпечаток не принят!")
+                        }
+                    } else {
+                        console.log("Шкаф закрыт! Доступа нет!")
+                    }
+                   
+                    
