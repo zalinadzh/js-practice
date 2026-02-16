@@ -321,10 +321,41 @@ if (isWardOpen) {
                 console.log("Сейф заблокирован!")
             }
         }
-    } else {
-        console.log("Отпечаток не принят!");
     }
-} else {
-    console.log("Шкаф закрыт! Доступа нет!")
+    } else {
+        console.log("Отпечаток не принят!")
+
 }
 
+
+
+
+function multiply(num1, num2) {
+    let sum = num1 * num2;
+    return sum;
+}
+let myResult = multiply(30, 4)
+console.log(myResult);
+
+
+
+
+
+
+function getTax(price) {
+    return price * 0.1;
+}
+let myResult1 = getTax(100);
+
+const getTaxExpression = function (price) {
+    return price * 0.1;
+}
+let myresult2 = getTaxExpression(500);
+
+
+const getTaxArrow = price => price * 0.1;
+let myResult3 = getTaxArrow(1000);
+
+console.log(myResult1);
+console.log(myresult2);
+console.log(myResult3);
