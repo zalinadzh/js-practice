@@ -359,3 +359,14 @@ let myResult3 = getTaxArrow(1000);
 console.log(myResult1);
 console.log(myresult2);
 console.log(myResult3);
+
+
+
+function convertToRub(curs) {
+    let rate = 90;
+    return curs * 90;
+}
+let cursDollar = convertToRub(1);
+console.log("Итоговая сумма: " + cursDollar + " рублей");
+
+
