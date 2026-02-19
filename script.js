@@ -370,3 +370,14 @@ let cursDollar = convertToRub(1);
 console.log("Итоговая сумма: " + cursDollar + " рублей");
 
 
+
+
+
+let hasNotes = true;
+let cleanPractice = true;
+
+if (hasNotes && cleanPractice) {
+    console.log("Допуск разрешен");
+} else {
+    console.log("Допуск запрещен");
+}
