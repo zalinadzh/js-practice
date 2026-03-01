@@ -381,3 +381,17 @@ if (hasNotes && cleanPractice) {
 } else {
     console.log("Допуск запрещен");
 }
+
+
+
+const todoList = ['записать тему', 'прочитать', 'сделать задание']
+for (let i = 0; i < todoList.length; i++) {
+    console.log(todoList[i]);
+}
+
+
+const users = ['Залина', 'Анна', 'Марат', 'Незнакомец', 'Иван', 'Взломщик'];
+const safeUsers = users.filter(who => {
+      return who !== 'Взломщик'  && who !== 'Незнакомец';
+});
+console,log(safeUsers);
