@@ -440,3 +440,42 @@ function проверитьТемпературу(градусы) {
         return "температура в норме"
     }
 }
+
+
+function getchange(budget, price) {
+    if (budget >= price) {
+        return budget - price;
+    } else {
+        return "Not enough money";
+    }
+}
+
+
+
+function checkTemp(degrees) {
+    if (degrees > 40) {
+        return "Too hot!"
+    } else {
+        return "Temperature is ok!"
+    }
+}
+
+
+
+function isEven(number) {
+    if (number % 2 === 0) {
+        return "Even";
+    } else {
+        return "Odd!";
+    }
+}
+
+
+
+ function getGreeting(hour) {
+    if (hour < 12) {
+        return "Good morning!";
+    } else {
+        return "Goog day!"
+    }
+ }
