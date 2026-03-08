@@ -479,3 +479,31 @@ function isEven(number) {
         return "Goog day!"
     }
  }
+
+
+
+
+ const ulProduct = ['Сахар', 'Мука', 'Яйца', 'Шоколад'];
+ ulProduct[2];
+ ulProduct.length
+ ulProduct[3] = "Сливки";
+
+
+
+ const цена1 = [10, 25, 40, 15];
+ let sum = 0;
+ for (let i = 0; i < цена1.length; i++) {
+     sum = sum + цена1[i];
+}
+console.log(цена1[sum]);
+
+
+
+const deshovayaCena = цена1.filter(num => num > 20);
+
+const novayaCena = цена1.map(num => num * 2);
+
+
+const cenaTorta = цена1.filter(num => num >15);
+
+const skidka = cenaTorta.map(num => num * 0.5);
