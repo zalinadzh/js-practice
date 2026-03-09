@@ -486,7 +486,9 @@ function isEven(number) {
  const ulProduct = ['Сахар', 'Мука', 'Яйца', 'Шоколад'];
  ulProduct[2];
  ulProduct.length
+
  ulProduct[3] = "Сливки";
+
 
 
 
@@ -507,3 +509,16 @@ const novayaCena = цена1.map(num => num * 2);
 const cenaTorta = цена1.filter(num => num >15);
 
 const skidka = cenaTorta.map(num => num * 0.5);
+
+
+
+const cities = ["Paris", "Tokio", "Moscow", "London"];
+console.log(cities.length);
+
+
+const numbers = [10, 20, 30,];
+numbers.pop();
+console.log(numbers.length);
+
+
+
