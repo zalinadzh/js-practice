@@ -532,3 +532,21 @@ const colors = ["red", "green", "blue"];
 let favouriteColor = colors[0];
 
 
+
+let tools = ["hammer", "screwdriver"];
+tools[1] = "drill";
+
+
+let todolist = ["buy milk", "clean room"];
+todolist.push("studyJS");
+
+
+let person = {
+    name: "Alia",
+    age: 25
+};
+
+let user = { id: 101, status: "active" };
+console.log(user.status);
+
+
