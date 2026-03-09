@@ -522,3 +522,13 @@ console.log(numbers.length);
 
 
 
+
+
+const fruits = ["apple", "orange", "banana"];
+console.log(fruits.length);
+
+
+const colors = ["red", "green", "blue"];
+let favouriteColor = colors[0];
+
+
