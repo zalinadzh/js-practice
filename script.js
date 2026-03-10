@@ -559,3 +559,12 @@ favCities.push("Dubai");
 favCities.shift();
 
 
+console.log(favCities.length);
+
+
+const tags = ["js", "html", "css"];
+const tagsString = tags.join();
+
+
+
+
