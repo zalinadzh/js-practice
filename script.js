@@ -550,3 +550,12 @@ let user = { id: 101, status: "active" };
 console.log(user.status);
 
 
+const favCities = ["Shandhai", "Istambul", "Magas"];
+console.log(favCities[1]);
+
+
+favCities.push("Dubai");
+
+favCities.shift();
+
+
