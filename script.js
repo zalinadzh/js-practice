@@ -565,6 +565,18 @@ console.log(favCities.length);
 const tags = ["js", "html", "css"];
 const tagsString = tags.join();
 
+const user1 = {
+    name: "Zalina"
+    age: 25
+};
 
+
+console.log(user1.name);
+
+user.age = 26;
+
+user.isStudent = true;
+
+delete user.age;
 
 
