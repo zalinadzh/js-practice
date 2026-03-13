@@ -597,6 +597,23 @@ for (let i = 1; i <= 20; i++) {
     }
 }
 
+function calculateRem(value) {
+    let result = value/16;
+    return result + "rem";
+}
+console.log(calculateRem);
+
+
+const todoList1 = [
+    {title: "Espresso", price: 150, isAvailable: true },
+    {title: "Cappuccino", price: 250, isAvailable: true },
+    {title: "Latte", price: 300, isAvailable: false }
+];
+console.log("Total drinks in menuL " + todoList1.length);
+
+
+
+
 
 
 
