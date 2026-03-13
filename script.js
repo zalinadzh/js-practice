@@ -567,7 +567,7 @@ const tagsString = tags.join();
 
 const user1 = {
     name: "Zalina"
-    age: 25
+    
 };
 
 
@@ -578,5 +578,25 @@ user.age = 26;
 user.isStudent = true;
 
 delete user.age;
+
+
+for (let i = 1; i <= 10; i++) {
+    console.log(i + " coffee portion");
+}
+
+for (let i = 5; i > 0; i--) {
+    console.log(i);
+    if (i === 1) {
+        console.log("coffee is ready!");
+    }
+}
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 === 0) {
+        console.log("Even number: " + i);
+    }
+}
+
+
 
 
