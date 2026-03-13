@@ -612,6 +612,14 @@ const todoList1 = [
 console.log("Total drinks in menuL " + todoList1.length);
 
 
+function calculateDiscount(price, discountPercent) {
+    let discountAmount = (price * discountPercent) / 100;
+    let finalPrice = price - discountAmount;
+    return "Final price is: " + finalPrice;
+}
+console.log(calculateDiscount(1000, 20));
+
+
 
 
 
