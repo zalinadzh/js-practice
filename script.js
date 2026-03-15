@@ -655,3 +655,11 @@ function updatePrice(object, newPrice) {
     return object;
 }
 console.log(updatePrice(item, 250));
+
+
+const todoList = ["Buy beans", "Clean machine"];
+function addTask(list, task) {
+    list.push(task);
+    return list;
+}
+console.log(addTask(todoList, "Brew coffee"));
