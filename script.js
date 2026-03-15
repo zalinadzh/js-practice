@@ -631,3 +631,27 @@ function convertToCelsius(fahrenheit) {
 return (fahrenheit - 32) * 5 / 9;
 }
 console.log(convertToCelsius(100));
+
+function getGreeting(hour) {
+    if (hour < 12) {
+        return "Good morning";
+    } else {
+      return "Good afternoon";
+    }
+}
+console.log(getGreeting(10));
+
+
+const cofeeProduct = {
+    name: "Espresso",
+    price: 150,
+    isAvailable: true
+};
+console.log(cofeeProduct.name);
+
+const item1 = { name: "Latee", price: 200 };
+function updatePrice(object, newPrice) {
+    object.price = newPrice;
+    return object;
+}
+console.log(updatePrice(item, 250));
