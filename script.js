@@ -622,6 +622,12 @@ console.log(calculateDiscount(1000, 20));
 
 
 
+function calculateArea(width, height) {
+    return width * height;
+}
+console.log(calculateArea(10, 20));
 
-
-
+function convertToCelsius(fahrenheit) {
+return (fahrenheit - 32) * 5 / 9;
+}
+console.log(convertToCelsius(100));
