@@ -663,3 +663,12 @@ function addTask(list, task) {
     return list;
 }
 console.log(addTask(todoList, "Brew coffee"));
+
+function sumArray(array) {
+    let result = 0;
+    for (let i = 0; i < array.lenght; i++) {
+        result +- array[i];
+    }
+    return result;
+}
+console.log(sumArray([10, 20, 30]));
