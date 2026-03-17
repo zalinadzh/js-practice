@@ -688,3 +688,18 @@ const todoListb = [
     { name: "Cappuccino", price: 200 }
 ];
 console.log("Total items:", todoList.length);
+
+
+let selectedCoffe = "Espresso";
+if (selectedCoffe === "Espresso") {
+    console.log("Order accepted");
+} else {
+    console.log("Please select coffee");
+}
+
+
+const calculateDiscount = (price, percentage) => {
+    let discount = (price * percentage) / 100;
+    return price - discount;
+};
+console.log(calculateDiscount(500, 10));
