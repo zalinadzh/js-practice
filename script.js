@@ -384,9 +384,9 @@ if (hasNotes && cleanPractice) {
 
 
 
-const todoList = ['записать тему', 'прочитать', 'сделать задание']
-for (let i = 0; i < todoList.length; i++) {
-    console.log(todoList[i]);
+const todoList2 = ['записать тему', 'прочитать', 'сделать задание']
+for (let i = 0; i < todoList2.length; i++) {
+    console.log(todoList2[i]);
 }
 
 
@@ -672,3 +672,19 @@ function sumArray(array) {
     return result;
 }
 console.log(sumArray([10, 20, 30]));
+
+
+
+const prices = [150, 200, 400, 100, 500]
+const filterPrices = (array, maxPrice) => {
+    return array.filter(price => price < maxPrice);
+};
+console.log(filterPrices(prices, 300));
+
+const todoListb = [
+
+    { name: "Espresso", price: 150 },
+    { name: "Latte", price: 250 },
+    { name: "Cappuccino", price: 200 }
+];
+console.log("Total items:", todoList.length);
