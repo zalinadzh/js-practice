@@ -722,4 +722,16 @@ console.log(`The price of $
     console.log("First item:", cart[0]);
 
 
-    
+    const menu = ["Espresso", "Latte", "Raf", "Mocha"];
+    menu.forEach((item) => {
+        console.log("Coffee catgory:", item);
+    });
+
+
+    let totalAmount = 1200;
+    let hasMemberCard = true;
+    if (totalAmount > 1000 && hasMemberCard) {
+        console.log("Apply 20% discount");
+    } else {
+        console.log("Standard price applies");
+    }
