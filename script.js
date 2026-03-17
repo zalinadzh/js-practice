@@ -703,3 +703,23 @@ const calculateDiscount = (price, percentage) => {
     return price - discount;
 };
 console.log(calculateDiscount(500, 10));
+
+
+
+const coffeeItem = {
+    title: "Mocha",
+    price: 350,
+
+isAvailable: true};
+console.log(`The price of $
+    {coffeeItem.title} is $
+    {coffee.price}`);
+
+
+    const cart = ["Espresso", "Latte"];
+    cart.push("Cappuccino");
+    console.log("Updated cart:", cart);
+    console.log("First item:", cart[0]);
+
+
+    
